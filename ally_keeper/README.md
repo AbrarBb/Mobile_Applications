@@ -1,16 +1,66 @@
-# ally_keeper
+# 📱 Ally Keeper
 
-Allow users to create a profile with basic details like name, profile picture, and contact information.
+**Ally Keeper** is a powerful Flutter app that helps you keep track of your favorite people, friends, and shared memories. Designed with real human connection in mind, Ally Keeper allows users to organize personal notes, contacts, photos, and social links — and even share real-time locations with mutual users.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🧠 Memory Keeping & Contact Management
+- Save favorite people with names, photos, tags, and descriptions
+- Add contact numbers, emails, and social links (Instagram, Facebook, LinkedIn, etc.)
+- Write and store personal notes for each saved ally
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📍 Real-Time Location Sharing
+- Share your live location with selected users
+- View allies on an interactive map
+- Privacy-first: location sharing is mutual and user-controlled
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📝 Note & Media Storage
+- Save text-based notes for events, memories, or important moments
+- Attach images from the camera or gallery
+- Organize media and notes by tags or relationships
+
+### 🎵 Playlist & Content Sharing *(Upcoming Feature)*
+- Share playlists from Spotify/YouTube
+- Bookmark favorite songs, links, or media that remind you of people
+
+### 🔒 Privacy & Security
+- Secure Firebase Authentication
+- Cloud Firestore for fast, real-time database syncing
+- Data is private and encrypted; users control what they share
+
+---
+
+## 🧰 Tech Stack
+
+| Layer              | Technology                            |
+|--------------------|----------------------------------------|
+| Frontend           | Flutter (Dart)                        |
+| State Management   | (Optional) Provider / Riverpod        |
+| Backend/Cloud      | Firebase Authentication & Firestore   |
+| Maps & Location    | `geolocator`, `google_maps_flutter`   |
+| Media              | `image_picker`, `photo_view`          |
+| Android Native     | Kotlin (Gradle integration)           |
+| iOS Native         | Swift (Planned)                       |
+
+---
+
+## 🛠️ Getting Started
+
+### 🔗 Prerequisites
+
+Make sure the following tools are installed:
+
+- Flutter SDK (latest stable)
+- Dart SDK (comes with Flutter)
+- Android Studio or VS Code
+- Firebase account and project created
+
+### 📦 Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/abrarbb/ally_keeper.git
+   cd ally_keeper
