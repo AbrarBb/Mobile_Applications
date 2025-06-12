@@ -46,6 +46,23 @@
 
 ---
 
+lib/
+├── main.dart               # Entry point
+├── models/                # Data models (e.g., Ally, Note)
+├── services/              # Firebase & utility services
+├── screens/               # UI screens/pages
+│   ├── home_screen.dart
+│   ├── add_ally_screen.dart
+│   └── map_screen.dart
+├── widgets/               # Reusable widgets
+└── utils/                 # Helpers, constants, etc.
+
+android/
+├── app/                   # Android-specific files
+│   ├── build.gradle
+│   └── google-services.json
+
+
 ## 🛠️ Getting Started
 
 ### 🔗 Prerequisites
@@ -62,5 +79,5 @@ Make sure the following tools are installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/abrarbb/ally_keeper.git
+   git clone https://github.com/AbrarBb/Mobile_Applications/tree/main/ally_keeper
    cd ally_keeper
