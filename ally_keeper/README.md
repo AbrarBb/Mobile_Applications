@@ -46,21 +46,21 @@
 
 ---
 
-lib/
-├── main.dart               # Entry point
-├── models/                # Data models (e.g., Ally, Note)
-├── services/              # Firebase & utility services
-├── screens/               # UI screens/pages
-│   ├── home_screen.dart
-│   ├── add_ally_screen.dart
-│   └── map_screen.dart
-├── widgets/               # Reusable widgets
-└── utils/                 # Helpers, constants, etc.
-
-android/
-├── app/                   # Android-specific files
-│   ├── build.gradle
-│   └── google-services.json
+<h2 id="📁-project-structure">📁 Project Structure</h2>
+<p><strong>lib/</strong></p>
+<p>├── main.dart               # Entry point</p>
+<p>├── models/                # Data models (e.g., Ally, Note)</p>
+<p>├── services/              # Firebase &amp; utility services</p>
+<p>├── screens/               # UI screens/pages</p>
+<p>│   ├── home_screen.dart</p>
+<p>│   ├── add_ally_screen.dart</p>
+<p>│   └── map_screen.dart</p>
+<p>├── widgets/               # Reusable widgets</p>
+<p>└── utils/                 # Helpers, constants, etc.</p>
+<p><strong>android/</strong></p>
+<p>├── app/                   # Android-specific files</p>
+<p>│   ├── build.gradle</p>
+<p>│   └── google-services.json</p>
 
 
 ## 🛠️ Getting Started
